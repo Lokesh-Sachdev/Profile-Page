@@ -1,0 +1,36 @@
+@import '../../App';
+
+nav {
+  div {
+    width: 100px;
+    // height: 90px;
+    padding: 22px 0;
+  }
+
+  .sidenav__logo {
+    img {
+      width: 50px;
+    }
+    background: $logo-bg;
+    width: 100px;
+    height: 100px;
+  }
+
+  .sidenav__items {
+    flex-direction: column;
+
+    font-size: 10px;
+    color: #000;
+
+    cursor: pointer;
+
+    p {
+      text-transform: uppercase;
+      color: rgb(0, 0, 0, 0.3);
+    }
+
+    svg {
+      font-size: 25px;
+    }
+  }
+}

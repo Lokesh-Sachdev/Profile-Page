@@ -1,0 +1,21 @@
+$bg: #f5f5f5;
+$logo-bg: #29b712;
+$dark-text: #242831;
+$p-text: #6b6b6b;
+
+.App {
+  background: #fff;
+  color: #000;
+  display: flex;
+
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    font-size: 12px;
+    color: $p-text;
+  }
+}
